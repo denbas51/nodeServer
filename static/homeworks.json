@@ -1,0 +1,4888 @@
+[
+    {
+        "_id": "6121f3c37d02b31f7f84fd36",
+        "retake_terms": 3,
+        "difficulty_terms": 3,
+        "results": [],
+        "hw_type": "homework",
+        "title": "Webpack, Классы",
+        "description": "<p>потренируемся работать с классами, модулями и webpack.</p><p><br></p><p>Начальную сборку Webpack вы можете скачать <a href=\"https://github.com/nelilika/webpack-project\" rel=\"noopener noreferrer\" target=\"_blank\">здесь</a>:</p><p>Можете создать сами по этому <a href=\"https://dev.to/antonmelnyk/how-to-configure-webpack-from-scratch-for-a-basic-website-46a5\" rel=\"noopener noreferrer\" target=\"_blank\">туториалу</a>:</p><p><br></p><p><strong><u>Обязательные требования:</u></strong></p><ul><li>каждый класс должен быть реализован в отдельном файле;</li><li>проект должен собираться с помощью webpack;</li><li>код не должен дублироваться, вся логика должна быть разбросана по функциям;</li><li><strong>console.log()</strong> допускается только в внутри финальной функции <em>main</em>();</li><li>домашнее задание проверяю только в pull request в github;</li></ul><p><br></p><p><strong>Задача</strong>: Реализуем ...</p></p></p></p>",
+        "time_terms": "2021-08-28T09:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-08-22T06:50:43.005Z",
+        "number": 28
+    },
+    {
+        "_id": "611d7f9079b4c914df7ce1be",
+        "retake_terms": 2,
+        "difficulty_terms": 2,
+        "results": [
+            {
+                "_id": "611e51b28259881e8f12be70",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "611e59421f74d21f8f2d0423",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "611e5a838259881e8f12c0d6",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 98,
+                "points": 98
+            },
+            {
+                "_id": "611e763b37f3a61a8ad97db5",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "612017f19f32701e84d3a249",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 95,
+                "points": 95
+            },
+            {
+                "_id": "6120aa589f32701e84d3a593",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "6120c6507d02b31f7f84ee87",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "6124d7fa86b02c38d885008f",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "61260705ac163537e105cacc",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "61264eb286b02c38d885181f",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": false,
+                "auditor": "60c889f8d183751db6613eec"
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Методы массива (не for)",
+        "description": "<p>Тренируем работу с методами массива и пытаемся попрощаться с for :)</p><p><br></p><p><strong style=\"color: var(--color-prettylights-syntax-comment);\">Избавляемся от ненужных вещей.</strong></p><p><span style=\"color: var(--color-prettylights-syntax-comment);\">В строке записан список вещей, разделенных запятыми. Некоторые вещи - ненужные. Их легко опознать по названию - их названия начинаются с</span><em style=\"color: var(--color-prettylights-syntax-comment);\"> \"Ненужный\", \"Ненужное\", \"Ненужная\", \"Ненужные\". </em><span style=\"color: var(--color-prettylights-syntax-comment);\">Избавьтесь от ненужных вещей с помощью методов строки: </span><strong style=\"color: var(--color-prettylights-syntax-comment);\">split и startsWith</strong><span style=\"color: var(--color-prettylights-syntax-comment);\"> и метода массива: </span><strong style=\"color: var(--color-prettylights-syntax-comment);\">filter</strong><span style=\"color: var(--color-prettylights-syntax-comment);\">. Соберите строку назад с помощью метода массива </span><strong style=\"color: var(--color-prettylights-syntax-comment);\">join</strong><span style=\"color: var(--color-prettylights-syntax-comment);\">.</span></p><p><span style=\"color: var(--color-prettylights-syntax-comment);\">Должно остаться </span><strong style=\"color: var(--color-prettylights-syntax-comment);\">8</strong><span style=\"color: var(--color-prettylights-syntax-comment);\"> нужных вещей.</span></p><p><span style=\"color: var(--color-prettylights-syntax-comment);\">В результате до...</span></p></p>",
+        "time_terms": "2021-08-25T17:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-08-18T21:45:52.218Z",
+        "number": 27
+    },
+    {
+        "_id": "611d7d4379b4c914df7ce1a1",
+        "retake_terms": 2,
+        "difficulty_terms": 2,
+        "results": [
+            {
+                "_id": "6121577b1b4b461e8260f71a",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "61229626c046e437df91502a",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "6123ec8fac163537e105b259",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "6124c3e5c046e437df9167f1",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "6124e846c046e437df916b17",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "6124ee8fac163537e105bb11",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": false,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 91,
+                "points": 91
+            },
+            {
+                "_id": "61250806ac163537e105bcca",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 99
+            },
+            {
+                "_id": "61260233c046e437df91784b",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Promises: weather",
+        "description": "<p><strong>UPDATE:</strong> Внимание, мой аккаунт заэкспарился. Вам необходимо создать свой собственный на сайте документации и поменять ACCESS_KEY, чтобы продолжить работу с API.</p><p><br></p><p>Работаем с WEATHER API - <a href=\"https://weatherstack.com/documentation\" rel=\"noopener noreferrer\" target=\"_blank\">документация тут</a></p><pre class=\"ql-syntax\" spellcheck=\"false\">ACCESS_KEY = d980918584d58c50725729c01653726e\n</pre><p>Необходимо создать простой cелект с 5ю городами и вывести информацию о&nbsp;текущей&nbsp;погоде на страницу. (обратите внимание на атрибут <strong>value</strong>, заполнение его обязательно, чтобы потом можно было считать данные по кликнутой опции).</p><p>Се...</p></p>",
+        "time_terms": "2021-08-25T17:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-08-18T21:36:03.914Z",
+        "number": 26
+    },
+    {
+        "_id": "611432f342f2fc0387bdb864",
+        "retake_terms": 2,
+        "difficulty_terms": 2,
+        "results": [
+            {
+                "_id": "611b65a23cc1f02b3ba3ccac",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 99
+            },
+            {
+                "_id": "611b86dcafb17d64739df610",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "611baafe20147c5e44ec6653",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 98,
+                "points": 98
+            },
+            {
+                "_id": "611c194c7af31d5e3e880e99",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 92,
+                "points": 92
+            },
+            {
+                "_id": "611cd4fa40d5745f5cc7b107",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "611ce387e9de137c43b18bdf",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "611cf36f6e4d027d330e3c44",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "611cf60c6e4d027d330e3c8e",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "611ecff505c7a817ab405302",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 90,
+                "points": 80
+            },
+            {
+                "_id": "61211b4c9f32701e84d3afb1",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 95,
+                "points": 85
+            },
+            {
+                "_id": "61251976c046e437df916ed0",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 90
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Promises: Rick&Morty",
+        "description": "<p>Напишите небольшое приложение, которое будет работать с <a href=\"https://rickandmortyapi.com/documentation\" rel=\"noopener noreferrer\" target=\"_blank\">Rick&amp;Morty API.</a></p><p><br></p><p>Начальный код представлен в архивах ниже:</p><p><em>version 1 - empty</em> -- содержит чистый js файл для написания функций с нуля</p><p><em>version 2 - with card renders </em>-- содержит функцию которая рисует карточку со статическими данными.</p><p><br></p><p>Напишите функцию, которая получает с сервера массив персонажей мультфильма и отрисовывает их на странице в карточках.</p><p>Данные в карточках заполнять согласно тестовому примеру в html файле.</p><p>Если пе...</p></p></p>",
+        "time_terms": "2021-08-18T17:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-08-11T20:28:35.427Z",
+        "number": 25,
+        "wasted": true
+    },
+    {
+        "_id": "61142fed42f2fc0387bdb825",
+        "retake_terms": 2,
+        "difficulty_terms": 2,
+        "results": [
+            {
+                "_id": "61169f6c42a30c7561cd8480",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "611772a02ca32c763d610123",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "611803236f4c2f756240ce9d",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 98,
+                "points": 98
+            },
+            {
+                "_id": "6118c5f92ca32c763d6115ac",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "61190d1842a30c7561cda733",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "611a627cf2e45441ddf15ce9",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 99
+            },
+            {
+                "_id": "611ab2aba6317b2c2bc7f92d",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 99
+            },
+            {
+                "_id": "611b8893a72118657c22cd41",
+                "punishment": {
+                    "retakes": [
+                        1,
+                        1
+                    ]
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 98
+            },
+            {
+                "_id": "611bd7e940d5745f5cc7a163",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 95,
+                "points": 95
+            },
+            {
+                "_id": "611c03a620147c5e44ec740f",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "611d024b9138d45dd0856027",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 97,
+                "points": 97
+            },
+            {
+                "_id": "611d13ea9138d45dd08562f8",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Promises: game",
+        "description": "<p>1) Создайте Promise, которое должно выполнять следующие действия:</p><ul><li>через 2 секунды он должен создать переменную <strong>number </strong>со случайным значением от 1 до 6;</li><li>если 1 &lt;= <strong>number </strong>&lt;= 5, вывести в консоли сообщение \"Start the game...\" и вернуть число;</li><li>если <strong>number</strong> =  6, вернуть ошибку;</li></ul><p>Затем должна быть запущена функция-потребитель (<strong><em>than()</em></strong>), которая выполняет следующие</p><p>действия:</p><ul><li>если <strong>number </strong>= 1, вывести сообщение \"Stay here\" ;</li><li>если <strong>number </strong>&gt;= 2, вывести сообщение \"Go &lt;number&gt; steps...</li></ul>",
+        "time_terms": "2021-08-18T17:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-08-11T20:15:41.024Z",
+        "number": 24,
+        "wasted": true
+    },
+    {
+        "_id": "610e87e3826b547595a26609",
+        "retake_terms": 1,
+        "difficulty_terms": 2,
+        "results": [
+            {
+                "_id": "610ee9a959df53758f7cccf9",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610fee64826b547595a27c6f",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "611055ce59df53758f7ce3c5",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6110c9d972448676ae101302",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6110d79b72448676ae1014fb",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "611146d3826b547595a29d95",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61129f7b0343796cebe5477c",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61141a4c42f2fc0387bdb634",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "6116253742a30c7561cd76ec",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 88,
+                "points": 88
+            },
+            {
+                "_id": "6116377e42a30c7561cd7941",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 88,
+                "points": 88
+            },
+            {
+                "_id": "61165ed42ca32c763d60f0d6",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "6116c4772ca32c763d60fb5b",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "61177be142a30c7561cd8e66",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            }
+        ],
+        "hw_type": "quiz",
+        "title": "Прототипы",
+        "description": "<p>Проверяем как запомнился материал урока.</p>",
+        "time_terms": "2021-08-14T09:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-08-07T13:17:23.917Z",
+        "number": 3,
+        "wasted": true
+    },
+    {
+        "_id": "610e838c72448676ae0ff55e",
+        "retake_terms": 1,
+        "difficulty_terms": 2,
+        "results": [
+            {
+                "_id": "610ecc7772448676ae0ffa6e",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 85,
+                "points": 85,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610fc81c59df53758f7cd7d6",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610fe49d826b547595a27b85",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61105216826b547595a28395",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "611163c472448676ae102ad9",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61119b3572448676ae1030ab",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 75,
+                "points": 75,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6113ccbb35b2a31af51f9680",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 90,
+                "points": 90
+            },
+            {
+                "_id": "611418a54edfec0380aeca27",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 90,
+                "points": 90
+            },
+            {
+                "_id": "6114c77142f2fc0387bdbb9f",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 95,
+                "points": 95
+            },
+            {
+                "_id": "611539382ca32c763d60dd23",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 90,
+                "points": 90
+            },
+            {
+                "_id": "61165e6442a30c7561cd7dd9",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 99
+            },
+            {
+                "_id": "6116c26442a30c7561cd87e0",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 90,
+                "points": 90
+            },
+            {
+                "_id": "61177b332ca32c763d610230",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 90,
+                "points": 90
+            }
+        ],
+        "hw_type": "quiz",
+        "title": "Тест: Повторение — мать учения",
+        "description": "<p>Внимательно читайте каждый вопрос</p>",
+        "time_terms": "2021-08-14T09:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-08-07T12:58:52.970Z",
+        "number": 2,
+        "wasted": true
+    },
+    {
+        "_id": "610e772b72448676ae0ff406",
+        "retake_terms": 2,
+        "difficulty_terms": 2,
+        "results": [
+            {
+                "_id": "610fcab6826b547595a276f2",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6110038972448676ae100c25",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "611034ee59df53758f7ce1e3",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61118a79826b547595a2a87a",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61119cdf59df53758f7d059b",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61123dd107506b147b74bd86",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61151bdc05cfbb04975141fb",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 85,
+                "points": 84
+            },
+            {
+                "_id": "6115285c6f4c2f7562409846",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "6116625b2ca32c763d60f13c",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "6117803c6f4c2f756240c111",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "6117b89c2ca32c763d61099f",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 95,
+                "points": 85
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Модульный проект. Часть 2",
+        "description": "<p>Продолжаем и заканчиваем работать над модульным проектом.</p><ol><li>Canvas Game <a href=\"https://docs.google.com/document/d/1Rxy95y4VzzhQ5qnzaAENARzoCNpHxt8rPES8ZGcytuU/edit?usp=sharing\" rel=\"noopener noreferrer\" target=\"_blank\">(ссылка на ТЗ)</a> -- <a href=\"https://docs.google.com/document/d/1_XRE2WVjYgwZ7iyeid7va5_4OiSVaDGf29x38Rc625w/edit\" rel=\"noopener noreferrer\" target=\"_blank\">шпаргалка</a></li><li>Playlist <a href=\"https://docs.google.com/document/d/1crQM-WQjJEcQC4c0XYZ9OASxcPCJ0MeS8DlvjZfWA7A/edit?usp=sharing\" rel=\"noopener noreferrer\" target=\"_blank\">(ссылка на ТЗ)</a> -- <a href=\"https://docs.google.com/document/d/1Ri5EEDQyQhOdnfq6AYyqh0rM12vlluCpmELZJCl8pzM/edit?usp=sharing\" rel=\"noopener noreferrer\" target=\"_blank\">шпаргалка</a></li></ol><p><br></p>",
+        "time_terms": "2021-08-14T09:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-08-07T12:06:03.505Z",
+        "number": 23,
+        "wasted": true
+    },
+    {
+        "_id": "610b0aa0d5119e285fba858e",
+        "retake_terms": 2,
+        "difficulty_terms": 2,
+        "results": [
+            {
+                "_id": "610d9a0372448676ae0fea07",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610fa84759df53758f7cd496",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6110030759df53758f7cde65",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6110bf1b826b547595a2849b",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6110cf3e826b547595a2853c",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61115a0559df53758f7cfe96",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6112f0441b97006cec350132",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61137f71c1dd6f6dd73aa9ee",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6113ae2cc1dd6f6dd73aaf1b",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6113c33b35b2a31af51f94ce",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 100
+            },
+            {
+                "_id": "6113f8a66d345f46f177f13c",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 90,
+                "points": 90
+            },
+            {
+                "_id": "6117d24242a30c7561cd9820",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 90
+            },
+            {
+                "_id": "6118009942a30c7561cd9b11",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 100,
+                "points": 90
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Прототипы",
+        "description": "<p>1) Создайте объект <strong>student </strong>со свойствами <em>firstName</em>, <em>lastName</em>, <em>averageScore </em>и методами <em>getFullName()</em>, который возвращает полное имея студента в виде строки ${firstName} ${lastName}, и<em> isGrantHolder()</em>. Метод <em> isGrantHolder() </em>должен содержать следующую логику:</p><p>Если averageScore больше или равняется числу 4, метод возвращает true, иначе - false.</p><p><br></p><p>Создайте функцию-конструктор <strong>Aspirant </strong>с прототипом <strong>student </strong>и свойствами dissertationTopic и isDissertationComplete.</p><p>Переопределите метод <em>is...</em></p></p>",
+        "time_terms": "2021-08-11T17:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-08-04T21:46:08.146Z",
+        "number": 22,
+        "wasted": true
+    },
+    {
+        "_id": "61055be6a75d214cfe5052aa",
+        "retake_terms": 2,
+        "difficulty_terms": 3,
+        "results": [
+            {
+                "_id": "61057a1435cfca4df05151ad",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610a9055febd4528601d5018",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610abf7cd5119e285fba8040",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610b861e36f75f295239371d",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610bec7e719c9f750437669e",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610c336522e31f741197c6d3",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610c49f622e31f741197c8cc",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610da10c826b547595a25922",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610e443172448676ae0feeb6",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61118a3c59df53758f7d046a",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6113cb3df547e11c2c3b70d5",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 50,
+                "points": 40
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Модульный проект. Часть 1",
+        "description": "<p>Нужно разоботать проект на ваш выбор согласно представленному Техническому Заданию (ТЗ).</p><p><br></p><ol><li>Canvas Game <a href=\"https://docs.google.com/document/d/1Rxy95y4VzzhQ5qnzaAENARzoCNpHxt8rPES8ZGcytuU/edit?usp=sharing\" rel=\"noopener noreferrer\" target=\"_blank\">(ссылка на ТЗ)</a> -- <a href=\"https://docs.google.com/document/d/1_XRE2WVjYgwZ7iyeid7va5_4OiSVaDGf29x38Rc625w/edit\" rel=\"noopener noreferrer\" target=\"_blank\">шпаргалка</a></li><li>Playlist <a href=\"https://docs.google.com/document/d/1crQM-WQjJEcQC4c0XYZ9OASxcPCJ0MeS8DlvjZfWA7A/edit?usp=sharing\" rel=\"noopener noreferrer\" target=\"_blank\">(ссылка на ТЗ)</a> -- <a href=\"https://docs.google.com/document/d/1Ri5EEDQyQhOdnfq6AYyqh0rM12vlluCpmELZJCl8pzM/edit?usp=sharing\" rel=\"noopener noreferrer\" target=\"_blank\">шпаргалка</a></li></ol>",
+        "time_terms": "2021-08-07T09:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-07-31T14:19:18.177Z",
+        "number": 21,
+        "wasted": true
+    },
+    {
+        "_id": "61053646a75d214cfe504f37",
+        "retake_terms": 2,
+        "difficulty_terms": 2,
+        "results": [
+            {
+                "_id": "61056a0aa75d214cfe5053a1",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6106ab5aa75d214cfe506478",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6107006fa75d214cfe506bb9",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6107b6879a46274d00d84d6f",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610983bf36f75f29523916b9",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610b7694d5119e285fba86ab",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610be21bf99711740d95f0d6",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 80,
+                "points": 80,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610be662719c9f75043765b3",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610c2b9122e31f741197c4fd",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610d2493f22caf78738707f0",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610ee6d1826b547595a26cb6",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "assessed_points": 95,
+                "points": 85,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6110f54759df53758f7ceef3",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "assessed_points": 95,
+                "points": 85,
+                "auditor": "60c889f8d183751db6613eec"
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Регулярки. Основы",
+        "description": "<p>Пройти заданий{5, } на этом <a href=\"https://regex101.com/quiz\" rel=\"noopener noreferrer\" target=\"_blank\">сайте</a></p><p><br></p><p>P.S. Результаты ваших регулярок можно скинуть прямо в LMS, без GIT.</p>",
+        "time_terms": "2021-08-07T09:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-07-31T11:38:46.484Z",
+        "number": 20,
+        "wasted": true
+    },
+    {
+        "_id": "6101cca335cfca4df0510f39",
+        "retake_terms": 3,
+        "difficulty_terms": 3,
+        "results": [
+            {
+                "_id": "61054c9fa75d214cfe505134",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610561409a46274d00d82c1b",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6105ba729a46274d00d83137",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61079d8ba75d214cfe507080",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6108181f9a46274d00d85933",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61085c5335cfca4df0518713",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6109589bd5119e285fba619a",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6109a08636f75f2952391a6b",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 95,
+                "points": 95,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610aa301febd4528601d535c",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610ab08efebd4528601d550a",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610ed9fd59df53758f7ccbce",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "612518aec046e437df916ebc",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "auditor": "60c889f8d183751db6613eec",
+                "assessed_points": 90,
+                "points": 80
+            }
+        ],
+        "hw_type": "homework",
+        "title": "События в DOM",
+        "description": "<p>1) Напишите функцию, которая ищет подходящие фильмы из заданного списка. <em>(Capture1.jpg)</em></p><p>_</p><p>HTML-файл должен быть со следующей структурой в секции &lt;body&gt; :</p><pre class=\"ql-syntax\" spellcheck=\"false\">&lt;h1&gt;Film list&lt;/h1&gt;\n&lt;ul&gt;\n  &lt;li&gt;Jurassic Park&lt;/li&gt;\n  &lt;li&gt;Schindler’s List&lt;/li&gt;\n  &lt;li&gt;Million Dollar Baby&lt;/li&gt;\n  &lt;li&gt;The Social Network&lt;/li&gt;\n  &lt;li&gt;The Silence of the Lambs&lt;/li&gt;\n  &lt;li&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;label&gt;Search:&lt;/label&gt;\n...</pre>",
+        "time_terms": "2021-08-04T17:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-07-28T21:31:15.270Z",
+        "number": 19,
+        "wasted": true
+    },
+    {
+        "_id": "6101b53835cfca4df0510cf6",
+        "retake_terms": 2,
+        "difficulty_terms": 1,
+        "results": [
+            {
+                "_id": "6102911a9a46274d00d7fad0",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61045370a75d214cfe504544",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61045abe9a46274d00d81e91",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6105537a9a46274d00d82b09",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6105cf2e35cfca4df051553a",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6106d169a75d214cfe50675d",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6107aed99a46274d00d84c27",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610941e9febd4528601d3669",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61098768d5119e285fba6779",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6109ddde36f75f2952391cc2",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610a90c4febd4528601d502b",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610a9e03febd4528601d52c5",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610ab0aa36f75f2952392d6b",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Игра MDN",
+        "description": "<p>Пройти туториал по написанию 2D игры на Canvas:</p><p><br></p><p><a href=\"https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript\" rel=\"noopener noreferrer\" target=\"_blank\">https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript</a></p>",
+        "time_terms": "2021-08-04T17:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-07-28T19:51:20.094Z",
+        "number": 18,
+        "wasted": true
+    },
+    {
+        "_id": "60fc1aa408965668b449dc29",
+        "retake_terms": 2,
+        "difficulty_terms": 2,
+        "results": [
+            {
+                "_id": "60fc6b5d5e46d267c59bd10f",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60ffa9ff6cc52b539fe67965",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610035716cc52b539fe68ad6",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61005d4b6cc52b539fe69018",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61014aa8523f5415415bf974",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6101c8af9a46274d00d7ee57",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61030b04a75d214cfe502e63",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 98,
+                "points": 98,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6103d372a75d214cfe5037b5",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 98,
+                "points": 98,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610442c3a75d214cfe5043dd",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610455289a46274d00d81e1d",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61045c15a75d214cfe5045b8",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6104fff835cfca4df05146b2",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6106dd6035cfca4df05164e4",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "assessed_points": 99,
+                "points": 88,
+                "auditor": "60c889f8d183751db6613eec"
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Деструктуризация",
+        "description": "<p>1) Создайте объект <strong>vegetable</strong>, с такими свойствами, чтобы cледующий код вернул<em> \"onions are usually white\"</em>.</p><pre class=\"ql-syntax\" spellcheck=\"false\">const { name, color } = vegetable;\nconsole.log(`${name}s are usually ${color}`);\n</pre><p><br></p><p>2) Добавьте свойства в объект vegetable так, чтобы в консоль вывелось <em>\"onions are usually round\".</em></p><pre class=\"ql-syntax\" spellcheck=\"false\">const { shape } = vegetable;\nconsole.log(`${name}s are usually ${shape}`);\n</pre><p><br></p><p>3) Создайте массив объектов <strong>vegetables</strong> (каждый элемент массива имеет содержит точно такую же структуру как объект <strong>vegetabl...</strong></p></p></p>",
+        "time_terms": "2021-07-31T09:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-07-24T13:50:28.557Z",
+        "number": 17,
+        "wasted": true
+    },
+    {
+        "_id": "60fc0a138eb58f67c4f94e59",
+        "retake_terms": 2,
+        "difficulty_terms": 2,
+        "results": [
+            {
+                "_id": "60ff2e0effea82539e5607a3",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60ff875362fae1548f1684f0",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61003532ffea82539e561c34",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61014a8bee4ef7153b5151d3",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6102e560a75d214cfe5029fd",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6102fc289a46274d00d80810",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6103bdca35cfca4df05130cb",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 95,
+                "points": 95,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610442aea75d214cfe5043d7",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 90,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610462d09a46274d00d81eed",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 88,
+                "points": 88,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6104e646a75d214cfe50486a",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61050e929a46274d00d82451",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 90,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610831dba75d214cfe5083d6",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "assessed_points": 85,
+                "points": 75,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610915899a46274d00d869ac",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            }
+        ],
+        "hw_type": "homework",
+        "title": "DOM sweet DOM",
+        "description": "<p>1) Напишите функцию, которая изменяет фоновый цвет текста последнего параграфа в блоке</p><p>&lt;body&gt;, а так же функцию, которая меняет блоки <strong>footer </strong>и <strong>main</strong> местами.</p><p>_</p><p>HTML-файл должен быть со следующей структурой в секции &lt;body&gt; :</p><pre class=\"ql-syntax\" spellcheck=\"false\">&lt;div id=\"wrapper\"&gt;\n  &lt;div id=\"footer\"&gt;\n    &lt;h1&gt;Footer&lt;/h1&gt;\n  &lt;/div&gt;\n  &lt;div id=\"main\"&gt;\n    &lt;p&gt;I am first paragraph&lt;/p&gt;\n    &lt;p&gt;I am second paragraph&lt;/p&gt;\n    &lt;p&gt;I am last paragraph&lt;/p...</pre>",
+        "time_terms": "2021-07-31T09:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-07-24T12:39:47.147Z",
+        "number": 16,
+        "wasted": true
+    },
+    {
+        "_id": "60f899dfebe2d3050155b656",
+        "retake_terms": 2,
+        "difficulty_terms": 3,
+        "results": [
+            {
+                "_id": "60fac9c408965668b449c759",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60fae7a08eb58f67c4f93ed2",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60fd5dd808965668b449f2f1",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60fd916308965668b449f695",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60fdbaa88eb58f67c4f96c81",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60fe544f5e46d267c59bf0e3",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60fef9ba6cc52b539fe67347",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60fff678ffea82539e5612ce",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 95,
+                "points": 95,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61001d2d62fae1548f16950e",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6100f44062fae1548f16a1bf",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 95,
+                "points": 95,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "6101136662fae1548f16a4d0",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "610118be62fae1548f16a563",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 95,
+                "points": 95,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "61016e8235cfca4df051031d",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 90,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Функции. Bind",
+        "description": "<p>1) Создайте объект <strong>coffeeMachine </strong>со свойством <em>message</em>: ‘Your coffee is ready!’ и методом <em>start()</em>, при вызове которого через 3 секунды в консоль выведется сообщение, записанное в свойстве message.</p><p>Начальный код:</p><pre class=\"ql-syntax\" spellcheck=\"false\">let coffeeMachine = {\n   message: 'Your coffee is ready!',\n   start: function() {\n     // write your code here\n   },\n}\n</pre><p>Результат:</p><pre class=\"ql-syntax\" spellcheck=\"false\">coffeeMachine.start(); // 'Your coffee is ready!'\n</pre><p><br></p><p>Создайте объект teaPlease со свойством message: 'Wanna some tea instead of coffee?'. Обновит...</p></p>",
+        "time_terms": "2021-07-28T17:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-07-21T22:04:15.428Z",
+        "number": 15,
+        "wasted": true
+    },
+    {
+        "_id": "60f3056aec98c41894e8aba5",
+        "retake_terms": 2,
+        "difficulty_terms": 3,
+        "results": [
+            {
+                "_id": "60f46edeec98c41894e8c12d",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f477bd72bb5c1892b52837",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f6defd6215b7492e33ff57",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f7d92a6215b7492e341345",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f7fdc86215b7492e34173d",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f9601408965668b449aa6d",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60fa7aea5e46d267c59bb070",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 95,
+                "points": 95,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60faee2208965668b449caca",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 95,
+                "points": 95,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60fafd8408965668b449cc42",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60fb131908965668b449cf29",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 98,
+                "points": 98,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60fb25bd8eb58f67c4f9451f",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60fb49f208965668b449d1b3",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60fe86a7999dd92de8fcdd2b",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Методы String()",
+        "description": "<p>1) Создайте 3 переменных со следующими значениями</p><pre class=\"ql-syntax\" spellcheck=\"false\">let string1 = \"Aquamarine Black Blue Brown Chocolate \";\nlet string2 = \"Green Lime Olive Orange Purple \";\nlet string3 = \"Red Tomato Violet White Yellow\";\n</pre><p><br></p><p>а) Создайте функцию<strong> joinColor()</strong>, которая объединит все 3 строки в одну. Функция должна работать с <strong><u>любым </u></strong>количеством входящих строк.</p><pre class=\"ql-syntax\" spellcheck=\"false\">let colors = joinColor(string1, string2, string3); // Aquamarine Black Blue Brown Chocolate Green Lime Olive Orange Purple Red Tomato Violet White ...</pre></p>",
+        "time_terms": "2021-07-24T09:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-07-17T16:29:30.904Z",
+        "number": 14,
+        "wasted": true
+    },
+    {
+        "_id": "60f2c138ec98c41894e8a57a",
+        "retake_terms": 2,
+        "difficulty_terms": 2,
+        "results": [
+            {
+                "_id": "60f3d77540ea2119847a57f2",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f4515cec98c41894e8bfc0",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f46b2372bb5c1892b52724",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f7d8da258eb9483cbaa4eb",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f92e748eb58f67c4f91e4c",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 95,
+                "points": 95,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f95ff65e46d267c59b9ff0",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60fa5a6b08965668b449bafe",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60fb12858eb58f67c4f943bd",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 98,
+                "points": 98,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60fb25dd8eb58f67c4f94527",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60fb2a755e46d267c59bc18a",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60fb3f288eb58f67c4f945f1",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60fba3bd5e46d267c59bc307",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60fe86cca5c7b53469a68843",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Замыкания",
+        "description": "<p>1) Создайте функцию <strong>createBuffer()</strong>, которая создает локальную переменную <em>text</em> в виде пустой строки и возвращает функцию <strong>buffer</strong>, с которой можно работать следующим образом:</p><ul><li>Если в функцию <strong>buffer</strong> был передан строковый параметр – этот параметр записывается в переменную <em>text</em>. Иначе выведите ошибку в консоль.</li><li>Если функция <strong>buffer </strong>вызывается без параметров – возвращается значение переменной <em>text</em>.</li></ul><p>Создайте переменную и запишите в нее результат выполнения функции <strong>createBuffer()</strong>.</p><p>Продемонс...</p>",
+        "time_terms": "2021-07-24T09:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-07-17T11:38:32.325Z",
+        "number": 13,
+        "wasted": true
+    },
+    {
+        "_id": "60ef4d0f9cfe4d3f2fc8a1eb",
+        "retake_terms": 3,
+        "difficulty_terms": 3,
+        "results": [
+            {
+                "_id": "60f0ae192618b536cf889122",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f1529dec98c41894e88b65",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f29cb772bb5c1892b505bd",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f42abd72bb5c1892b522e1",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f56efbec98c41894e8d12d",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f56f4672bb5c1892b5382c",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f5d58aec98c41894e8dda3",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f5e51fec98c41894e8ded1",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 95,
+                "points": 95,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f680be72bb5c1892b54b29",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f686f7ec98c41894e8e4c7",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f6878bec98c41894e8e4d9",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f6fc8d6215b7492e340865",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f72147258eb9483cba9e91",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            }
+        ],
+        "hw_type": "homework",
+        "title": "This (и немного reduce())",
+        "description": "<p>1) Создайте объект <strong>triangle</strong> со следующими свойствами: <em>aSide</em>, <em>bSide</em>, <em>cSide</em>.</p><p>Создайте метод setValues(), который вызывает функцию prompt и заполняет свойства <em>aSide</em>, <em>bSide</em>, <em>cSide</em> значениями.</p><ul><li>Создайте в объекте <strong>triangle </strong>метод для расчета периметра треугольника.</li><li>Создайте в объекте triangle метод, который проверяет является ли треугольник</li></ul><p>равносторонним:</p><p>Выведите информацию о созданном треугольнике (включая результат выполнения</p><p>всех методов) в консоль.</p><pre class=\"ql-syntax\" spellcheck=\"false\">/* Initial object */\nlet triangle = ...</pre>",
+        "time_terms": "2021-07-21T09:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-07-14T20:46:07.442Z",
+        "number": 12,
+        "wasted": true
+    },
+    {
+        "_id": "60e98e4647eaf450b426ba92",
+        "retake_terms": 3,
+        "difficulty_terms": 2,
+        "results": [
+            {
+                "_id": "60ec066b7f840351bbe12d21",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60ec407cfc34443ab4f2114f",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60ef0a4d03d3fe3f30ae57ec",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 85,
+                "points": 85,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60eff46a03d3fe3f30ae63df",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f037b08e70d91b579fe9dd",
+                "punishment": {
+                    "retakes": [
+                        1,
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 98,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f09038d8e24a36cea96772",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f097eed8e24a36cea9684e",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f12938609f2937c323176f",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f15d4372bb5c1892b4f205",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f1e18672bb5c1892b4fe54",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f1e56d40ea2119847a3cdf",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f1ea5772bb5c1892b4ff2e",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60f1ea7a72bb5c1892b4ff33",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 90,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Функции и методы массивов 2.0",
+        "description": "<p>1) Добработайте массив students, с которым мы работали на уроке.</p><p>1.1) Добавьте в массив два новых объекта с такими же свойствами, но с другими значениями.</p><p>1.2) Выведите в консоль массив студента(-ов), которых зовут 'Emily'.</p><p>1.3) Выведите в консоль объект студента, у которого id = 4.</p><p>1.4) Выведите в консоль массив фамилий студентов.</p><p>1.5)* Выведите в консоль массив студентов с новым свойством average, которое отображает среднюю его оценку.</p><p><em><u>tips</u></em>: тут нужно использовать метод <em>map</em>, чтоб...<em></em></p>",
+        "time_terms": "2021-07-17T00:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-07-10T12:10:46.814Z",
+        "number": 11,
+        "wasted": true
+    },
+    {
+        "_id": "60e616b5122c50585bd24cb9",
+        "retake_terms": 2,
+        "difficulty_terms": 2,
+        "results": [
+            {
+                "_id": "60e740e97e79ae13b6193ea6",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60e866927f840351bbe0f036",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60e88c507f840351bbe0f330",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60e8b411d441c350ae9a9a89",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60e8c9f47f840351bbe0f806",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60e9e4007f840351bbe10701",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60ea8fc347eaf450b426c4a0",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60eca5b56209313b95671150",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60ed7351ed3c137de30fc0ea",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 90,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60eda4c12ff1687d00d1a1ec",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 60,
+                "points": 60,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60edd9d7ed3c137de30fcf68",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 96,
+                "points": 95,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60edf48059d1017cfe7f6507",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60ee809e2ff1687d00d1b091",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Функции и методы массивов",
+        "description": "<p>1) <span style=\"color: rgb(0, 0, 0);\">Напишите функцию </span><strong style=\"color: rgb(0, 0, 0);\">fillArray</strong><span style=\"color: rgb(0, 0, 0);\">, которая создает массив и заполняет ее предоставленным значением.</span></p><pre class=\"ql-syntax\" spellcheck=\"false\">let array = fillArray(3, 'qwerty'), // ['qwerty', 'qwerty', 'qwerty']\n</pre><p>где <em>10 </em>- это длинна массива, а <em>'qwerty'</em> его значения</p><p><br></p><p>2) Напишите функцию <strong>reverseArray</strong>, которая разворачивает значения массива задом наперед.</p><pre class=\"ql-syntax\" spellcheck=\"false\">let array = ['My', 'life', '-', 'my', 'rules'];\nlet result = reverseArray(array); // ['rules', 'my', '-', 'life', 'My'];\n</pre><p><br></p><p>3) <span style=\"color: rgb(0, 0, 0);\">Напишите функцию </span><strong style=\"color: rgb(0, 0, 0);\">filterArray</strong><span style=\"color: rgb(0, 0, 0);\">, которая очищает массив...</span></p></p></p>",
+        "time_terms": "2021-07-14T17:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-07-07T21:03:49.882Z",
+        "number": 10,
+        "wasted": true
+    },
+    {
+        "_id": "60e04c80122c50585bd1f85d",
+        "retake_terms": 4,
+        "difficulty_terms": 3,
+        "results": [
+            {
+                "_id": "60e0b4c6944988596ed31dfa",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60e2059f02aa3358610a21f9",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60e419df944988596ed3475f",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60e4769202aa3358610a4915",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60e5cfa6944988596ed36606",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60e6a3e80d074c768f7b22ac",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60e74882d441c350ae9a8528",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60e7fc08d441c350ae9a897d",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60e87438d441c350ae9a947b",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60e886a87f840351bbe0f28a",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60e8a58447eaf450b426b18f",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60e8b5c17f840351bbe0f73b",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60e8b8327f840351bbe0f75e",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 89,
+                "auditor": "60c889f8d183751db6613eec"
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Циклы 3.0",
+        "description": "<p>Файл с практического урока и есть домашка.</p><p>Обратите внимание, что для него нужен файл index.html. Для задачи №8 вывод значения цикла происходит на старнице браузера, а не в консоли</p>",
+        "time_terms": "2021-07-09T21:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-07-03T11:39:44.582Z",
+        "number": 9,
+        "wasted": true
+    },
+    {
+        "_id": "60dcdd3ca493dd1933eea9be",
+        "retake_terms": 2,
+        "difficulty_terms": 2,
+        "results": [
+            {
+                "_id": "60ddf5a7122c50585bd1d53e",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60de3d4a02aa33586109f46b",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60de9d18122c50585bd1daad",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 90,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60dedc95944988596ed30330",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60df4218122c50585bd1eab9",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 95,
+                "points": 95,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60df50dc122c50585bd1ebd5",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 99,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60df6966944988596ed30fcc",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60df6b01944988596ed30fee",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60df705802aa3358610a052e",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60df78f602aa3358610a05bf",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 90,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60df7db202aa3358610a0612",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60dfaf8b944988596ed31222",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 90,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60e2b002944988596ed32f1e",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Объекты. Массивы",
+        "description": "<p>1) Напишите программу, которая продемонстрирует работу с массивом.</p><p>Создайте массив из восьми элементов:</p><p><br></p><p><br></p><p><br></p><pre class=\"ql-syntax\" spellcheck=\"false\">'455'\n87.15\ntrue\nundefined\nnull\n'false'\n[]\n{}\n</pre><p>Выведите информацию о типе каждого элемента в консоли.</p><p>Добавьте значение 6 к каждому элементу массива и выведите полученные значения</p><p>в консоли.</p><p><br></p><p>2) Напишите программу, которая спрашивает у пользователя число и создает массив numbers из случайных целых чисел в диапазоне от <em>0 до 10, </em>длинною в число который указал пользователь.</p><p>Используйт...<em></em></p></p></p></p></p>",
+        "time_terms": "2021-07-03T04:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-06-30T21:08:12.553Z",
+        "number": 8,
+        "wasted": true
+    },
+    {
+        "_id": "60dcd24fb9e827185875a6bb",
+        "retake_terms": 3,
+        "difficulty_terms": 2,
+        "results": [
+            {
+                "_id": "60dd80ecb9e827185875ab5e",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60dde7ea122c50585bd1d36c",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 80,
+                "points": 80,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60de01f202aa33586109f0e8",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60de08a8122c50585bd1d70a",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60de136d02aa33586109f280",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60de1c47944988596ed2fe15",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60deadfb122c50585bd1db1b",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60deba9e944988596ed300bd",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60def17f122c50585bd1e009",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60df3ba602aa3358610a0114",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60df707c02aa3358610a0534",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60df78cc944988596ed31102",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 80,
+                "points": 80,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60dfbe4a944988596ed31230",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 90,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Циклы 2.0",
+        "description": "<p class=\"ql-align-justify\">1) Напишите <em>бесконечный</em> цикл, который вызывает команду <strong>confirm()</strong> до тех пор пока пользователь не нажмет Отмена.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">2) Напишите программу, которая спрашивает у пользователя число и высчитывает <a href=\"https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B8%D0%B0%D0%BB\" rel=\"noopener noreferrer\" target=\"_blank\">факториал</a> этого числа. Если пользователь ввел не целое число, запросите ввести число еще раз до тех пор пока это число не будет введено.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">3) Напишите программу, которая спрашивает у пользователя число и делит его на 2 столько раз, пока оно не будет &lt;= 50. Выведите в консоль число и количест...</p></p></p>",
+        "time_terms": "2021-07-03T04:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-06-30T20:21:35.895Z",
+        "number": 7,
+        "wasted": true
+    },
+    {
+        "_id": "60d717910f941c7c98d2759d",
+        "retake_terms": 3,
+        "difficulty_terms": 2,
+        "results": [
+            {
+                "_id": "60d9d1278bbd71584b8b30bc",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d9e81f8acaca5743a5d63f",
+                "punishment": {
+                    "retakes": [
+                        1,
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 98,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d9f25de5a1ac57ddba124d",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60da1c138bbd71584b8b3932",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60dab19b8acaca5743a5deda",
+                "punishment": {
+                    "retakes": [
+                        1,
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 92,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60db42b4a493dd1933ee8d77",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 99,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60db82ace548c01856795b4c",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60db9eedb9e8271858759355",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60dc40f3e548c0185679618f",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60dc86a4b9e827185875a0cf",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 90,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60dc86b9e548c01856796a49",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 95,
+                "points": 95,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60dc8dc9a493dd1933eea2d4",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 95,
+                "points": 95,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60df5ceb944988596ed30ef2",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "assessed_points": 90,
+                "points": 80,
+                "auditor": "60c889f8d183751db6613eec"
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Циклы",
+        "description": "<p>1) Напишите программу, которая спрашивает у пользователя его имя и выводит в консоли текстовое поздравление.</p><pre class=\"ql-syntax\" spellcheck=\"false\">Happy birthday to you\nHappy birthday to you\nHappy birthday, dear &lt;name&gt;\nHappy birthday to you\n</pre><p>Используйте любой цикл для реализации.</p><p><br></p><p>2) Сформируйте строку '.#.#.#.#.#.#.#' с помощью цикла <strong>for</strong>, где количество повторений символов '.#' задает пользователь через команду <strong>prompt().</strong></p><p><br></p><p>3) Напишите программу, котрая спрашивает у пользователя число и суммирует все нечетные числ...</p></p></p>",
+        "time_terms": "2021-06-30T17:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-06-26T12:03:29.233Z",
+        "number": 6,
+        "wasted": true
+    },
+    {
+        "_id": "60d714603ff6b77c92663c48",
+        "retake_terms": 3,
+        "difficulty_terms": 2,
+        "results": [
+            {
+                "_id": "60d87f4edd03f8056e607937",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d997038bbd71584b8b2ac3",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d9aaa28acaca5743a5cff8",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d9d5188acaca5743a5d480",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d9e8638acaca5743a5d646",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 99,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60da1762e5a1ac57ddba1548",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60da1a4c8acaca5743a5db4b",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60da1bbe8acaca5743a5db81",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60da1d788acaca5743a5db9d",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60da32218bbd71584b8b3b42",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60dc86ddb9e827185875a0dc",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 90,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60dc8d98a493dd1933eea2c9",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60ddf8d202aa33586109f023",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Условные конструкции",
+        "description": "<p>1) Напишите программу, которая спрашивает и пользователя номер маршрутки.</p><p>Если это номер 7, 255 или 115, тогда пользователь может ехать. Введите в консоли <em>\"You can go\"</em>.</p><p>Если нет - выведите в консоль <em>\"Please wait\"</em>.</p><p><br></p><p>2) Напишите программу, которая получает число от пользователя и сравнивает введенное значение с числом <strong>Pi</strong>.</p><p>Сравните является ли число больше, чем число <strong>Pi.</strong></p><p>Сравните является ли число меньше, чем число <strong>Pi.</strong></p><p>Сравните является ли число равным числу <strong>Pi.</strong></p><p>Если введенное число, чи...</p></p>",
+        "time_terms": "2021-06-30T17:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-06-26T11:49:52.381Z",
+        "number": 5,
+        "wasted": true
+    },
+    {
+        "_id": "60d3a01c3c7eea7d7171e2cb",
+        "retake_terms": 1,
+        "difficulty_terms": 2,
+        "results": [
+            {
+                "_id": "60d453b93ff6b77c92660cd0",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d469013ff6b77c92660fd2",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d47a493c7eea7d7171ef3b",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 89,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d47b563c7eea7d7171efa6",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d4a2130f941c7c98d24b03",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 89,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d4e8c73c7eea7d7171fbe9",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d589660f941c7c98d2573a",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d5a0273c7eea7d7172027a",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d5de813ff6b77c92662ac2",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 83,
+                "points": 83,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d609b73c7eea7d71720c30",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d62ee10f941c7c98d269b6",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d632030f941c7c98d26a3c",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d639090f941c7c98d26af9",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d6c3250f941c7c98d26e2f",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            }
+        ],
+        "hw_type": "quiz",
+        "title": "Тест 1",
+        "description": "",
+        "time_terms": "2021-06-25T21:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-06-23T20:57:00.646Z",
+        "number": 1,
+        "wasted": true
+    },
+    {
+        "_id": "60d39bde3ff6b77c92660654",
+        "retake_terms": 3,
+        "difficulty_terms": 1,
+        "results": [
+            {
+                "_id": "60d475d30f941c7c98d2459f",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d476d83c7eea7d7171ee41",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d477f63c7eea7d7171ee59",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d4adbc3ff6b77c92661972",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 96,
+                "points": 95,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d4bff53c7eea7d7171f77e",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d4ccbf3c7eea7d7171f971",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 99,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d584a50f941c7c98d25676",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d58d243ff6b77c92662324",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d592313c7eea7d71720100",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d5e4a53ff6b77c92662b5c",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d62de33ff6b77c926632ea",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d637b00f941c7c98d26ab4",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d63d4e3ff6b77c92663409",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d6c1e83c7eea7d7172129b",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "assessed_points": 95,
+                "points": 85,
+                "auditor": "60c889f8d183751db6613eec"
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Числа и строки",
+        "description": "<p>1) Создайте три переменные. Присвойте первой переменной числовое значение. Вторая переменная должна быть равна первой переменной, увеличенной в 3 раза. Третья переменная равна сумме двух первых. Выведите в консоль все три переменные.</p><p><br></p><p>2) Создайте переменные х и y для хранения числа. Значения переменных задает пользователь через команду <strong>prompt()</strong>. Рассчитайте произведение, частное, разность и сумму этих значений. Результат последовательно отобразите в консоли в формате полной мат...</p></p>",
+        "time_terms": "2021-06-25T21:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-06-23T20:38:54.325Z",
+        "number": 4,
+        "wasted": true
+    },
+    {
+        "_id": "60cddc59e99d3e3cde95f8a9",
+        "retake_terms": 3,
+        "difficulty_terms": 2,
+        "results": [
+            {
+                "_id": "60cdef8e1d9a4c3bfeca73f2",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60cdf45fe99d3e3cde95fa25",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60cdfb231d9a4c3bfeca753f",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60ce1d5a4514353c0404ada4",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60cef0904514353c0404b3db",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60cf0be04514353c0404b625",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d0496c4514353c0404c2ad",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d0625f1d9a4c3bfeca8d3e",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 99,
+                "points": 98,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d099b5f60892569843f2e8",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d184cc39d2737f6983fdde",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d1f174dd44f27f68ff7a08",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d220bcd45f73017529295a",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d244e139d2737f6984126a",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 98,
+                "points": 98,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d628643ff6b77c92663292",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Практика 3",
+        "description": "<p>Напишите программу, которая выведит в консоль тип 3х разных переменных.</p><p><br></p><p>Критерии:</p><ul><li>Создайте переменную number и присвойте ей значение <strong>156798</strong>;</li><li>Создайте переменную string и присвойте ей значение<strong> IT School 'Hillel'</strong>;</li><li>Создайте переменную boolean и присвойте ей значение <strong>false</strong>;</li><li>Определите тип созданных переменных;</li><li>Отобразите значение каждой переменной и её тип в консоли в следующем виде:</li></ul><pre class=\"ql-syntax\" spellcheck=\"false\">\"value: &lt;value&gt;; type: &lt;type&gt;\"\n</pre>",
+        "time_terms": "2021-06-22T21:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-06-19T12:00:25.962Z",
+        "number": 3,
+        "wasted": true
+    },
+    {
+        "_id": "60cdda48e99d3e3cde95f836",
+        "retake_terms": 3,
+        "difficulty_terms": 2,
+        "results": [
+            {
+                "_id": "60cdef8ce99d3e3cde95f9d1",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60cdf43b1d9a4c3bfeca7427",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60cdfae3e99d3e3cde95fa9b",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60ce1d3b1d9a4c3bfeca7797",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60cef0761d9a4c3bfeca7db7",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60cf08cb4514353c0404b5dd",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d0491ce99d3e3cde96100b",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d062424514353c0404c4e7",
+                "punishment": {
+                    "retakes": [
+                        1
+                    ]
+                },
+                "assessed": true,
+                "assessed_points": 99,
+                "points": 98,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d09321f60892569843f287",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d184bb39d2737f6983fdd8",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d1f145dd44f27f68ff7a00",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d21be6dd44f27f68ff7f5f",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d2447e39d2737f69841263",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 98,
+                "points": 98,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d625903ff6b77c926631e6",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Знакомство",
+        "description": "<p>Напишите программу, которая спрашивает у пользователя как его зовут, в какой стране и в каком городе он живет и выведите результат в консоль.</p><p><br></p><p>Критерии:</p><ul><li>используйте метод <strong>prompt()</strong>, чтобы спросить у пользователя данные</li><li>используйте метод <strong>console.log()</strong>, чтобы отобразить данные в консоли в следующем виде:</li></ul><pre class=\"ql-syntax\" spellcheck=\"false\">'Hello, your name is &lt;name&gt;. You live in &lt;city&gt;, &lt;country&gt;'\n</pre>",
+        "time_terms": "2021-06-22T21:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-06-19T11:51:36.872Z",
+        "number": 2,
+        "wasted": true
+    },
+    {
+        "_id": "60cdd7e04514353c0404a915",
+        "retake_terms": 3,
+        "difficulty_terms": 1,
+        "results": [
+            {
+                "_id": "60cdef841d9a4c3bfeca73e9",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60cdf4081d9a4c3bfeca741f",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60cdfa99e99d3e3cde95fa91",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60ce1d18e99d3e3cde95fd62",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60cef05d1d9a4c3bfeca7daf",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60cf06b71d9a4c3bfeca7f0e",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d048ab1d9a4c3bfeca8b05",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d062204514353c0404c4e2",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d08c406f847d558f689621",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d184a3dd44f27f68ff6e18",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d1f0fc39d2737f6984099a",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d218ffd45f7301752928d1",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d22adc39d2737f69841040",
+                "punishment": {
+                    "retakes": []
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 100,
+                "auditor": "60c889f8d183751db6613eec"
+            },
+            {
+                "_id": "60d6204b0f941c7c98d26778",
+                "punishment": {
+                    "retakes": [],
+                    "time_terms": 10
+                },
+                "assessed": true,
+                "assessed_points": 100,
+                "points": 90,
+                "auditor": "60c889f8d183751db6613eec"
+            }
+        ],
+        "hw_type": "homework",
+        "title": "Практика 1",
+        "description": "<p>Напишите программу, которая спрашивает у пользователя сколько ему лет и выводит его возрат на экран.</p><p><br></p><p>Критерии:</p><ul><li>используйте метод prompt(), чтобы спросить у пользователя данные</li><li>используйте метод alert(), чтобы вывести результаты на экран</li></ul>",
+        "time_terms": "2021-07-03T21:00:00.000Z",
+        "author": {
+            "_id": "60c889f8d183751db6613eec",
+            "avatars": [
+                {
+                    "_id": "60c9b56ad183751db6615063",
+                    "destination": "uploads/images",
+                    "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+                }
+            ],
+            "first_name": "Лилия",
+            "last_name": "Недашковская",
+            "first_name_en": "Liliia",
+            "first_name_ru": "Лилия",
+            "first_name_uk": "Лілія",
+            "last_name_en": "Nedashkivska",
+            "last_name_ru": "Недашковская",
+            "last_name_uk": "Недашківська"
+        },
+        "createdAt": "2021-06-19T11:41:20.211Z",
+        "number": 1,
+        "wasted": true
+    }
+]
