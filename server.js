@@ -57,7 +57,6 @@ const server = http.createServer((req, res) => {
             <body> 
                 <ol> 
         `)
-    // let result = homeworks.filter((homework) => homework._id === homeworkId)
     console.log(homework)
     res.write(`<li>${homework.title}</li>`)
     res.write(`<li>${homework.description}</li>`)
